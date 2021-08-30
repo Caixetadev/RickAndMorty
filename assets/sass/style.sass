@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap')
+
+*
+  padding: 0
+  margin: 0
+  box-sizing: border-box
+  font-family: 'Roboto', sans-serif
+
+body
+  background: #24282F
+
+header
+  background: #fff
+  width: 100%
+  height: 375px
+
+  .container
+    display: flex
+    justify-content: center
+    padding: 13% 0
+
+  h1
+    color: #202329
+    display: flex
+    justify-content: center
+    z-index: 1
+    font-size: 60px
+
+  svg
+    width: 100%
+    position: absolute
+    top: 0
+    left: 0
+
+.container-card
+  width: 100%
+  margin: 50px auto
+  display: flex
+  flex-wrap: wrap
+  justify-content: center
+  gap: 30px
+
+  .card
+    color: #fff
+
+    h1
+      font-size: 20px
+@media (max-width: 600px)
+  header
+    .container
+      padding: 0 !important
+      padding: 100px !important
+
+      h1
+        font-size: 50px
